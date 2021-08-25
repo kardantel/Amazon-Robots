@@ -29,10 +29,10 @@ Mapa:
 
 | #  | #  |  # | #  | #  | #  |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
-| #  | M1  | #  |   | M3  | #  |
-| #  |   | #  |   |   | #  |
-| #  | M2  |   | R  |   | #  |
-| #  |   |   |   |   | #  |
+| #  | M1  | #  | ·  | M3  | #  |
+| #  | ·  | #  | ·  | ·  | #  |
+| #  | M2  | ·  | R  | ·  | #  |
+| #  | ·  | ·  | ·  | ·  | #  |
 | #  | #  | #  | #  | #  | #  |
 - Cada uno de los códigos arriba descritos implementa la **búsqueda heurística A* ** en Python 3;
 - Como función heurística, se utiliza la **Distancia Manhattan**;
