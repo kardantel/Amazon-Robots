@@ -15,8 +15,9 @@ Un ejemplo del robot, moviendo el inventario, se puede observar en el este [vide
 - El robot debe mover los 3 inventarios, M1, M2 y M3, a tres posiciones específicas. Estas posiciones finales se pueden observar en la siguiente imagen:
 ![](https://i.imgur.com/igt2IlF.jpg)
 - El repositorio cuenta con tres soluciones diferentes llamadas `Algorithm1.py`, `Algorithm2.py` y `Algorithm3.py`;
-- En los archivos `Algorithm1.py` y `Algorithm2.py` el mapa se representa por medio de una lista donde, `1` son los muros y `0` son los espacios vacíos de la bodega por donde el robot se mueve libremente:
+- En los archivos `Algorithm1.py` y `Algorithm3.py` el mapa se representa por medio de una lista donde, `1` son los muros y `0` son los espacios vacíos de la bodega por donde el robot se mueve libremente:
 ```python
+Mapa:
 	[[1, 1, 1, 1, 1, 1],
 	 [1, 0, 1, 0, 0, 1],
 	 [1, 0, 1, 0, 0, 1],
@@ -84,3 +85,7 @@ Ruta encontrada:
 ```python
  {..., (3, 3): [('MoverIzquierda-> ', (3, 2)), ('MoverArriba-> ', (2, 3)), ('MoverAbajo-> ', (4, 3)), ('MoverDerecha-> ', (3, 4)), ...}
 ```
+
+## How to use them?
+- Como puede ver el usuario, cada archivo tiene características únicas y, al mismo tiempo, que comparte con otros. Queda a consideración del usuario final escoger el que más le convenga o el que más de adapte a sus conocimientos y/o capacidades.
+- Solo hay que ingresar en consola el siguiente comando: `python3 Algorithm1.py`, por ejemplo.
