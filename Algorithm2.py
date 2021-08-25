@@ -79,16 +79,16 @@ class AEstrella:
         vecinos = []
         if self.mapa.mapa[nodo.pos[0] + 1][nodo.pos[1]] != 1:
             vecinos.append(Nodo([nodo.pos[0] + 1, nodo.pos[1]], nodo))
-            # print("de")
+            # print("der")
         if self.mapa.mapa[nodo.pos[0] - 1][nodo.pos[1]] != 1:
             vecinos.append(Nodo([nodo.pos[0] - 1, nodo.pos[1]], nodo))
-            # print("iz")
+            # print("izq")
         if self.mapa.mapa[nodo.pos[0]][nodo.pos[1] - 1] != 1:
             vecinos.append(Nodo([nodo.pos[0], nodo.pos[1] - 1], nodo))
-            # print("ab")
+            # print("aba")
         if self.mapa.mapa[nodo.pos[0]][nodo.pos[1] + 1] != 1:
             vecinos.append(Nodo([nodo.pos[0], nodo.pos[1] + 1], nodo))
-            # print("ar")
+            # print("arr")
         return vecinos
 
     def f_menor(self):
@@ -218,7 +218,6 @@ def main():
         mapa = Mapa(map)
         globals()["pos_f"] = buscarPos(fin, mapa)
         A = AEstrella(mapa, fin)
-        # print(A.abierta)
         mapa.camino(A.camino)
         print(mapa)
     return 0

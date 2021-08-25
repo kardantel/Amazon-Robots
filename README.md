@@ -35,6 +35,7 @@ Un ejemplo del robot, moviendo el inventario, se puede observar en el este [vide
 - No se coloca posición final de `R` porque es la misma que la posicion final de `M1`.
 - La búsqueda heurística A* se encuentra en la función `Astar()`.
 - Las coordenadas de orientación del mapa son `N`: Norte, `S`: Sur, `E`: Este, `O`: Oeste.
+- Si te gustan los códigos cortos y las salidas sencillas, este archivo es el ideal.
 
 ### Out
 - Este algoritmo regresa las rutas que recorre el robot: hacia qué inventario o posición de dirige y las coordenadas orientación que toma:
@@ -49,5 +50,22 @@ Ruta encontrada:
 ```
 
 ## Argorithm2.py
+- Aquí se cambia la nomenclatura del inventario por cuestiones prácticas. Por eso, `A` representa a `M1`, `B` representa a `M2` y `C` representa a `M3`.
+- Los mapas de las posiciones iniciales y finales del robot y de cada uno de los inventarios se deben colocar en un documento de texto `txt` para que sea el algoritmo el que encuentre el camino ideal.
+- Para este proyecto, se crearon 6 archivos `txt` de acuerdo a la posición del robot y del inventario. Por ejemplo, el archivo con nombre `1mapaR-C` quiere decir que el robot `R` se dirige a la posición del inventario `C`; el archivo con nombre `1mapaC-F` quiere decir que el inventario `C` se dirige a la posición final `F`. Así los demás archivos.
+- Los archivos `txt` que contienen los mapas se agregan como cadena de caracteres en una lista y se pasan a la clase `Mapa` que lee los caracteres, las posiciones y los convierte en formato legible para el código.
+- La búsqueda heurística A* se encuentra en la clase `AEstrella`.
+
+### Out
+- Este algoritmo imprime los mapas de cada una de las rutas escogidas por la búsqueda heurística basándose en los mapas originales.
+- La ruta encontrada es marcada por los puntos en el mapa. Los demás puntos son eliminados. Por ejemplo, para la ruta del robot `R` que se dirige al inventario `C` (tabla abajo izquierda) y que luego es llevado al punto final (tabla abajo derecha).
+
+| #  | #  |  # | #  | #  | #  |   | #  | #  |  # | #  | #  | #  |
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
+| #  |   | #  | ·  | C  | #  |   | #  |   | #  |   | R  | #  |
+| #  |   | #  | ·  |   | #  |   | #  |   | #  |   | ·  | #  |
+| #  |   |   | R  |   | #  |   | #  |   |   |   | ·  | #  |
+| #  |   |   |   |   | #  |   | #  |   | F  | ·  | ·  | #  |
+| #  | #  | #  | #  | #  | #  |   | #  | #  | #  | #  | #  | #  |
 
 ## Argorithm3.py
