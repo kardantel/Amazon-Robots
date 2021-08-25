@@ -41,11 +41,11 @@ Un ejemplo del robot, moviendo el inventario, se puede observar en el este [vide
 ```python
 Ruta encontrada:
 		Mover R a M3 - Ruta: ENN
-        Mover M3 a posF_M3 - Ruta: OSSOS
-        Mover R a M2 - Ruta: NO
-        Mover M2 a posF_M2 - Ruta: EES
-        Mover R a M1 - Ruta: NOONN
-        Mover M1 a posF_M1 - Ruta: SSEEES
+		Mover M3 a posF_M3 - Ruta: OSSOS
+		Mover R a M2 - Ruta: NO
+		Mover M2 a posF_M2 - Ruta: EES
+		Mover R a M1 - Ruta: NOONN
+		Mover M1 a posF_M1 - Ruta: SSEEES
 ```
 
 ## Argorithm2.py
