@@ -11,7 +11,7 @@ Un ejemplo del robot, moviendo el inventario, se puede observar en el este [vide
 - En el mapa arriba:
 	- `R` representa el robot. Inicialmente está ubicado en la posición `[2, 2]`;
 	- `#` representa una pared;
-	- M1, M2, y M3 representan los tres inventarios que el robot debe mover. Se encuentran ubicadas en las posiciones `[0 ,0]`, `[2, 0]` y `[0, 3]` respectivamente.
+	- `M1`, `M2`, y `M3` representan los tres inventarios que el robot debe mover. Se encuentran ubicadas en las posiciones `[0 ,0]`, `[2, 0]` y `[0, 3]` respectivamente.
 - El robot debe mover los 3 inventarios, M1, M2 y M3, a tres posiciones específicas. Estas posiciones finales se pueden observar en la siguiente imagen:
 ![](https://i.imgur.com/igt2IlF.jpg)
 - El repositorio cuenta con tres soluciones diferentes llamadas `Algorithm1.py`, `Algorithm2.py` y `Algorithm3.py`;
@@ -19,3 +19,12 @@ Un ejemplo del robot, moviendo el inventario, se puede observar en el este [vide
 - Como función heurística, se utiliza la **Distancia Manhattan**;
 - El costo real `g(n)` de cada acción del robot es 1.
 - Cada código indica en pantalla, de manera diferente, la secuencia de acciones que realiza el robot para alcanzar el estado objetivo utilizando una notación sencilla.
+- A continuación, se describen cada una de la soluciones realizadas para este proyecto.
+
+## Argorithm1.py
+
+
+## Argorithm2.py
+
+
+## Argorithm3.py
