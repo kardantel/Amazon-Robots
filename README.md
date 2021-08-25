@@ -26,6 +26,7 @@ Mapa:
 	 [1, 1, 1, 1, 1, 1]]
 ```
 - En el archivo `Algorithm2.py` el mapa se representa por medio de 6 archivos de texto donde, `#` son los muros y `.` son los espacios vacíos de la bodega por donde el robot se mueve libremente (Ver archivos de texto `txt`):
+
 | #  | #  |  # | #  | #  | #  |
 | :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
 | #  | M1  | #  |   | M3  | #  |
