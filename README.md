@@ -26,6 +26,13 @@ Mapa:
 	 [1, 1, 1, 1, 1, 1]]
 ```
 - En el archivo `Algorithm2.py` el mapa se representa por medio de 6 archivos de texto donde, `#` son los muros y `.` son los espacios vacíos de la bodega por donde el robot se mueve libremente (Ver archivos de texto `txt`):
+| #  | #  |  # | #  | #  | #  |
+| :------------: | :------------: | :------------: | :------------: | :------------: | :------------: |
+| #  | M1  | #  |   | M3  | #  |
+| #  |   | #  |   |   | #  |
+| #  | M2  |   | R  |   | #  |
+| #  |   |   |   |   | #  |
+| #  | #  | #  | #  | #  | #  |
 - Cada uno de los códigos arriba descritos implementa la **búsqueda heurística A* ** en Python 3;
 - Como función heurística, se utiliza la **Distancia Manhattan**;
 - El costo real `g(n)` de cada acción del robot es 1.
